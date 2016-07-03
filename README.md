@@ -186,10 +186,10 @@ echo $form->field($model, 'image')->widget(Cropbox::className(), [
 
     ...
 
-    'previewUrl' => [
+    'previewImagesUrl' => [
         'url/to/small/image'
     ],
-    'originalUrl' => 'url/to/original/image', 
+    'originalImageUrl' => 'url/to/original/image', 
 ]);
 ```
 
